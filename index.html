@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Học Boostrap buổi 3 </title>
+        <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/style1.scss">       
+    </head>
+    <body> 
+        <!--Header - start-->
+<header class="header">
+    <div class="container">
+        <div class="row justify-content-between header-padding">
+            
+            <button class="nav-toggler">
+                <span></span>
+            </button> 
+            <nav class="nav">
+                <ul>
+                    <li class="nav-item"><a href="#Home">Home</a></li>
+                    <li class="nav-item"><a href="#About">About</a></li>
+                    <li class="nav-item"><a href="#Menu">Menu</a></li>
+                    <li class="nav-item"><a href="#Testimonial">Testimonial</a></li>
+                    <li class="nav-item"><a href="#Team">Team</a></li>
+                    <li class="nav-item"><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+         
+        </div>
+    </div>
+</header>
+<!--Header - end-->
+<section class="home-section" id="home">
+    <div class="home-section-bg">
+
+    </div>
+    <div class="container">
+        <div class="row min-h-100">
+            <div class="home-text" data-aos="fade-up" data-aos-duration="3000">
+                <h1>Dung Market</h1>
+                <p>Đẳng cấp lên ngôi, vị ngọt đôi môi, niềm vui ngóng chờ giây phút mộng mơ</p>
+
+                <a href="#our-menu" class="btn">Menu</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Home Section begin -->
+<!-- About-Section-begin -->
+<section class="about-section section-padding" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="section-title" data-aos="fade-up">
+                <h2 data-title="our story">about us</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="about-text" data-aos="fade-right"data-aos-duration="3000" >
+                <h3>Chào mừng các bạn đến với Bắc Market</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a elit sit amet turpis suscipit pharetra. Nullam ut dictum arcu. Cras non ex nibh. Nulla at neque ipsum. Curabitur convallis luctus lacinia.</p>
+                <p> Nunc rhoncus eros id velit porttitor elementum sed sed nisi. Fusce mollis, turpis ac tempor mollis, odio mauris tempor lectus, eu auctor ante arcu ut diam. Vestibulum sagittis vestibulum mattis. Fusce at ipsum a eros consectetur gravida ac vitae est. Praesent maximus imperdiet arcu non finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam mollis aliquam feugiat. Duis rutrum lacus et luctus volutpat.</p>
+                <a href="#our-menu" class="btn">Xem menu</a>
+            </div>
+            <div class="about-img" data-aos="fade-left"data-aos-duration="3000" >
+                <div class="img-box">
+                    <h2>10 + Year Experence</h2>
+                    <img src="https://dangkyxettuyen.edu.vn/source/logo/cdbk.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About-Section-end -->
+<!-- Menu-Section-begin -->
+<section class="menu-section section-padding" id="Menu">
+    <div class="container">
+        <div class="row">
+            <div class="section-title" data-aos="fade-up">
+                <h2 data-title="order now">our menu</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="menu-taps">
+                <button type="button" class="menu-tap-item active" data-target="#Lunch" data-aos="fade-up">Lunch</button>
+                <button type="button" class="menu-tap-item" data-target="#Dinner" data-aos="fade-up">Dinner</button>
+                <button type="button" class="menu-tap-item" data-target="#Drinks" data-aos="fade-up">Drinks</button>
+                <button type="button" class="menu-tap-item" data-target="#Desserts" data-aos="fade-up">Desserts</button>
+            </div>
+        </div>
+        <div class="row menu-tap-content active" id="Lunch">
+            <div class="menu-item" data-aos="fade-right"data-aos-duration="3000">
+                <div class="menu-item-title">
+                    <img style="width: 100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwJAuA_FDZ139euX2u2Wy0V8YNZE3fyFVgE0N4GwQnRb2VPTmMK_AS4mo5IEZMyx_a6ns&usqp=CAU" alt="">
+                    <h3>Món trưa</h3>
+                </div>
+                <div class="menu-item-price">
+                    150.000 VNĐ
+                </div>
+            </div>
+            <div class="menu-item"data-aos="fade-left"data-aos-duration="3000">
+                <div class="menu-item-title">
+                    <img style="width: 100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9hH3i-ngd2jIGGw6y3x9LXU-fJVlVHGUZ_p4rzkb2Z9xmYJbDNEfpOctuzL_Fr42zaxE&usqp=CAU" alt="">
+                    <h3>Món trưa</h3>
+                </div>
+                <div class="menu-item-price">
+                    150.000 VNĐ
+                </div>
+            </div>
+            <div class="menu-item"data-aos="fade-right"data-aos-duration="3000">
+                <div class="menu-item-title">
+                    <img style="width: 100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGbRgofwHpZzTEIw-9dtbZoyK0MYnHWF8JlJirVg-5D0SfTf8QYSLRC1zolFX7o5voeHo&usqp=CAU" alt="">
+                    <h3>Món trưa</h3>
+                </div>
+                <div class="menu-item-price">
+                    150.000 VNĐ
+                </div>
+            </div>
+            <div class="menu-item"data-aos="fade-left"data-aos-duration="3000">
+                <div class="menu-item-title">
+                    <img style="width: 100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5bqPQOCIYMywxyFPxYFtwNnNZsn5SpOfb8hvHItQ5RMEI3BNepirdpSlrVT0ClgccWTM&usqp=CAU" alt="">
+                    <h3>Món trưa</h3>
+                </div>
+                <div class="menu-item-price">
+                    150.000 VNĐ
+                </div>
+            </div>
+            <div class="menu-item"data-aos="fade-right"data-aos-duration="3000">
+                <div class="menu-item-title">
+                    <img style="width: 100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg7ZXmjpuuwNLykSoF65sySpdtjbAg3a6_lQ&usqp=CAU" alt="">
+                    <h3>Món trưa</h3>
+                </div>
+                <div class="menu-item-price">
+                    150.000 VNĐ
+                </div>
+            </div>
+            <div class="menu-item"data-aos="fade-left"data-aos-duration="3000">
+                <div class="menu-item-title">
+                    <img style="width: 100px" src="https://comngon16.com/upload/userfiles/images/ga-ran-coca.jpg" alt="">
+                    <h3>Món trưa</h3>
+                </div>
+                <div class="menu-item-price">
+                    150.000 VNĐ
+                </div>
+            </div>
+            <div class="menu-item"data-aos="fade-right"data-aos-duration="3000">
+                <div class="menu-item-title">
+                    <img style="width: 100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRAsKUXk_9VIGNfoZ8ByHmb9foWKLAuAKk1MHfHsjzGD1iyrX76-HnhlEHCnzfBpdSQWw&usqp=CAU" alt="">
+                    <h3>Món trưa</h3>
+                </div>
+                <div class="menu-item-price">
+                    150.000 VNĐ
+                </div>
+            </div>
+            <div class="menu-item"data-aos="fade-left"data-aos-duration="3000">
+                <div class="menu-item-title">
+                    <img style="width: 100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUqnnpZU5cikCDbv7n5_KJ6fbv2CzaJvWpfxZhJFiALYsxZxyIsdVzPTEJ7iAmJPZ7lxw&usqp=CAU" alt="">
+                    <h3>Món trưa</h3>
+                </div>
+                <div class="menu-item-price">
+                    150.000 VNĐ
+                </div>
+            </div>
+        </div>
+        <div class="row menu-tap-content" id="Dinner">
+            <div class="menu-item">
+                <div class="menu-item-title">
+                    <img style="width: 100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1FwAUBgSn0U-vZuRX7y0lTPIr15tKQcP8Mw&usqp=CAU" alt="">
+                    <h3>Món trưa</h3>
+                </div>
+                <div class="menu-item-price">
+                    150.000 VNĐ
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-title">
+                    <img style="width: 100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwxDeZ171oeWMix1mTGFuZDd38JTvAwG3qpg&usqp=CAU" alt="">
+                    <h3>Món trưa</h3>
+                </div>
+                <div class="menu-item-price">
+                    150.000 VNĐ
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-title">
+                    <img style="width: 100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMQ4h2MScGGVNFZU7kSbCQVI7CQ4AAHavlxg&usqp=CAU" alt="">
+                    <h3>Món trưa</h3>
+                </div>
+                <div class="menu-item-price">
+                    150.000 VNĐ
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-title">
+                    <img style="width: 100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg1Q1ESDBAhNa99ykjk7imLUXh80H2KyWoNw&usqp=CAU" alt="">
+                    <h3>Món trưa</h3>
+                </div>
+                <div class="menu-item-price">
+                    150.000 VNĐ
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-title">
+                    <img style="width: 100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY-taKgv3oHOZuw3ALd_h5cPC9nzgBXttzRA&usqp=CAU" alt="">
+                    <h3>Món trưa</h3>
+                </div>
+                <div class="menu-item-price">
+                    150.000 VNĐ
+                </div>
+            </div>
+
+        </div>
+        <div class="row menu-tap-content"id="Drinks">
+            <div class="menu-item">
+                <div class="menu-item-title">
+                    <img style="width: 100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm1Mb7j3VJIEKXogQ1LX4bQ7RxZ3EZ2MV6uw&usqp=CAU" alt="">
+                    <h3>Món trưa</h3>
+                </div>
+                <div class="menu-item-price">
+                    150.000 VNĐ
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-title">
+                    <img style="width: 100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIfSERH4Gf7WVfB3aAUnNG560UwyD0Babt6A&usqp=CAU" alt="">
+                    <h3>Món trưa</h3>
+                </div>
+                <div class="menu-item-price">
+                    150.000 VNĐ
+                </div>
+            </div>
+        </div>
+        <div class="row menu-tap-content"id="Desserts"></div>
+    </div>
+</section>
+<!-- Menu-Section-end -->
+<!-- Testimonis-Section -->
+<section class="testimony section-padding" id="Testimonial">
+    <div class="container">
+        <div class="row">
+            <div class="section-title" data-aos="fade-up">
+                <h2 data-title="testimony">Some Feedback</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="testimony-item" data-aos="flip-left"data-aos-duration="3000">
+                <div class="testimony-author">
+                    <div class="testimony-name">
+                        <h3>Dung</h3>
+                        <span>Food Specialist</span>
+                    </div>
+                    <div class="testimony-img">
+                        <img src="https://scontent.fhan3-1.fna.fbcdn.net/v/t39.30808-6/255429954_1029517277883717_2316886691837632978_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=9LMeSP3fNWUAX8r1RDE&_nc_ht=scontent.fhan3-1.fna&oh=4b812b9aa3cc6e015ddc1edcf4f81d38&oe=61979424" alt="">
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a elit sit amet turpis suscipit pharetra. Nullam ut dictum arcu. Cras non ex nibh. Nulla at neque ipsum. Curabitur convallis luctus lacinia.</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="testimony-item" data-aos="fade-up"data-aos-duration="3000">
+                <div class="testimony-author">
+                    <div class="testimony-name">
+                        <h3>Dung</h3>
+                        <span>Food Specialist</span>
+                    </div>
+                    <div class="testimony-img">
+                        <img src="https://scontent.fhan3-1.fna.fbcdn.net/v/t39.30808-6/255429954_1029517277883717_2316886691837632978_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=9LMeSP3fNWUAX8r1RDE&_nc_ht=scontent.fhan3-1.fna&oh=4b812b9aa3cc6e015ddc1edcf4f81d38&oe=61979424" alt="">
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a elit sit amet turpis suscipit pharetra. Nullam ut dictum arcu. Cras non ex nibh. Nulla at neque ipsum. Curabitur convallis luctus lacinia.</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="testimony-item"data-aos="flip-right"data-aos-duration="3000">
+                <div class="testimony-author">
+                    <div class="testimony-name">
+                        <h3>Dung</h3>
+                        <span>Food Specialist</span>
+                    </div>
+                    <div class="testimony-img">
+                        <img src="https://scontent.fhan3-1.fna.fbcdn.net/v/t39.30808-6/255429954_1029517277883717_2316886691837632978_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=9LMeSP3fNWUAX8r1RDE&_nc_ht=scontent.fhan3-1.fna&oh=4b812b9aa3cc6e015ddc1edcf4f81d38&oe=61979424" alt="">
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a elit sit amet turpis suscipit pharetra. Nullam ut dictum arcu. Cras non ex nibh. Nulla at neque ipsum. Curabitur convallis luctus lacinia.</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Team Section begin -->
+<section class="team-section section-padding" id="Team">
+    <div class="container">
+        <div class="row">
+            <div class="section-title"data-aos="fade-up">
+                <h2 data-title="testimony">Our Chefs</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="team-item"data-aos="zoom-in"data-aos-duration="3000">
+                <img src="https://img.thuthuatphanmem.vn/uploads/2018/10/08/anh-phong-canh-buon_093817325.jpg" alt="">
+                <div class="team-item-info">
+                    <h3>Dung</h3>
+                    <p>Bếp trưởng</p>
+                </div>
+            </div>
+            <div class="team-item"data-aos="zoom-in" data-aos-duration="3000">
+                <img src="https://img.thuthuatphanmem.vn/uploads/2018/10/08/anh-phong-canh-chieu_093817340.jpg" alt="">
+                <div class="team-item-info">
+                    <h3>Dung</h3>
+                    <p>Bếp trưởng</p>
+                </div>
+            </div>
+            <div class="team-item"data-aos="zoom-in"data-aos-duration="3000">
+                <img src="https://img.thuthuatphanmem.vn/uploads/2018/10/08/anh-phong-canh-dep_093817419.jpg" alt="">
+                <div class="team-item-info">
+                    <h3>Dung</h3>
+                    <p>Bếp trưởng</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer-section -->
+<section class="footer-section" id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="footer-item">
+                <h3>Địa chỉ</h3>
+                <p>72, Hàm Nghi <br> Thạc Gián, Đà Nẵng</p>
+            </div>
+            <div class="footer-item">
+                <h3>Giờ mở cửa</h3>
+                <p>09:30-23:00 <br> Các ngày trong tuần</p>
+            </div>
+            <div class="footer-item">
+                <h3>Liện hệ</h3>
+                <p>Phone: 0973999949 <br> Email: nguyenns@ABC,com</p>
+                <div class="social-item">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="copyright">
+                <p>©2021. Toàn bộ bản quyền thuộc Hieu market</p>
+            </div>
+        </div>
+    </div>
+</section>
+    </body>
+</html>
+<script type="text/javascript" src="js/nhahangdung.js"></script>
+<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"> </script> 
+
+
+
+
+
+
+
+
+
+<!-- <input id = "n">
+<button onclick="add()">start</button> -->
+
+
